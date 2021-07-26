@@ -4,6 +4,12 @@ var str = "Hello, playground"
 
 
 //프로그래머스 비밀지도
+var completionHandlers: [()->Void] = []
+
+func getPerson(completion: @escaping () -> Void) {
+    
+    print("a")
+}
 
 
 func solution1(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
@@ -66,7 +72,7 @@ func solution2(_ s:String, _ n:Int) -> String {
         
     }
     
-    
+   
     return ""
 }
 
