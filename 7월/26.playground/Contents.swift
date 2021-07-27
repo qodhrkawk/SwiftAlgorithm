@@ -3,7 +3,7 @@ import Foundation
 
 var answer = 0
 
-func solution(_ numbers:[Int], _ target:Int) -> Int {
+func solution1(_ numbers:[Int], _ target:Int) -> Int {
     
     
     
@@ -27,3 +27,11 @@ func dfs(_ numbers:[Int], _ target:Int, _ depth: Int, _ curVal: Int)  {
     
 }
 print(solution([1,1,1,1,1], 3))
+
+
+
+func solution(_ numbers:[Int]) -> String {
+
+
+    
+}
